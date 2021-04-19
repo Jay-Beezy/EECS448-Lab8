@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script type= "text/javascript" src="main.js"></script>
+		<link rel="stylesheet" href="myStyle.css">
+	</head>
+	<title>
+		CSS Manipulation
+	</title>
+	<div id="textEditor">
+		<p>
+			This is a paragraph. <br/>
+			It doesn't do much. <br/>
+			But that doesn't matter. <br/>
+			Cause it doesn't have feelings.
+		</p>
+	</div>
+	<div">
+		<h1>Border Adjuster!</h1>
+		<div id="inputFields">
+			<b>Border Width (px):	</b><input type="text" id="borderWidth"></input><br/>
+			<b>Red Value (0-255):	</b><input type="text" id="redBorder"></input><br/>
+			<b>Green Value (0-255):	</b><input type="text" id="greenBorder"></input><br/>
+			<b>Blue Value (0-255):	</b><input type="text" id="blueBorder"></input><br/>
+		</div>
+		<h2>Background Adjuster!</h2>
+		<div id="inputFields">
+			<b>Red Value (0-255):	</b><input type="text" id="redBackground"></input><br/>
+			<b>Green Value (0-255):	</b><input type="text" id="greenBackground"></input><br/>
+			<b>Blue Value (0-255):	</b><input type="text" id="blueBackground"></input><br/>
+		</div>
+	</div>
+	<br/>
+	<div style="text-align:center">
+		<button id="submitButton" onclick = editParagraph()>Submit</button>
+	</div>
+	<br/>
+	<button onclick="location.href='index.html'" id="homeButton">Home</button>
+</html>
